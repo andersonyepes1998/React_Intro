@@ -1,0 +1,17 @@
+.texto{
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px white;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+    cursor: pointer;
+}
+
+h4:hover{
+    color: red;
+}

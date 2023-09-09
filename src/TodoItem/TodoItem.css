@@ -1,0 +1,60 @@
+.contenedorLista{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedorLista li{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorLista li p {
+    width: 450px;
+    background-color: rgb(227, 227, 227);
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.contenedorLista li span {
+    position: absolute;
+    margin-top: 45px;
+}
+
+.verdadero{
+    margin-right: 23%;
+}
+
+.verdadero:hover{
+    cursor: pointer;
+    color: green;
+    background-color: rgb(217, 217, 217); 
+    padding: 8px;
+    margin-top: 37px;
+    border-radius: 50%;
+}
+
+.verdadero-icon{
+    color: green;
+}
+
+.parrafo-p{
+    font-weight: 500;
+}
+
+.parrafo-p-complete{
+    text-decoration: line-through;
+}
+
+.falso{
+    cursor: pointer;
+    margin-left: 23%;
+}
+
+.falso:hover{
+    background-color: rgb(217, 217, 217); 
+    padding: 8px;
+    margin-top: 37px;
+    border-radius: 50%;
+}

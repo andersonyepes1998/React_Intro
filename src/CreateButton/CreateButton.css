@@ -1,0 +1,21 @@
+.aumentar{
+    display: flex;
+    justify-content: center;
+}
+
+.aumentar button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 40px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.aumentar button:hover{
+    transform: rotate(224deg);
+}
